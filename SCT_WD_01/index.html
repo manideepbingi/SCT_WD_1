@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Landing Page | Kamakshi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Kamakshi</div>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="section hero">
+      <div class="hero-content">
+        <h1>Welcome to <span class="brand">Kamakshi</span></h1>
+        <p>
+          A modern, responsive landing page template built for performance and flexibility.
+        </p>
+        <a href="#features" class="cta-button">Learn More</a>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section features">
+      <h2 class="section-title">Features</h2>
+      <div class="features-list">
+        <div class="feature-card">
+          <h3>Responsive Design</h3>
+          <p>Looks stunning on desktops, tablets, and mobile devices.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Easy Customization</h3>
+          <p>Modify layouts and add your own sections effortlessly.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Fast Performance</h3>
+          <p>Optimized for minimal load time and smooth user experience.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <h2 class="section-title">Get in Touch</h2>
+      <form class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="msg">Message</label>
+        <textarea id="msg" name="msg" rows="5" required></textarea>
+
+        <button type="submit" class="cta-button">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Kamakshi | All rights reserved.</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
